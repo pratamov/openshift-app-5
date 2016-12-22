@@ -36,7 +36,7 @@
 	try {
 		connection = DriverManager.getConnection(JDBC_URL,MYSQL_USER, MYSQL_PASSWORD);
 	} catch (SQLException e) {
-		System.out.println("Connection Failed!");
+		out.println("Connection Failed! " + e.getMessage());
 	}
 
 	if (connection != null) {
