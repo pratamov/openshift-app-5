@@ -19,7 +19,7 @@
 	String MYSQL_USER = System.getenv("MYSQL_USER");
 	String MYSQL_PASSWORD = System.getenv("MYSQL_PASSWORD");
 	String MYSQL_DATABASE = System.getenv("MYSQL_DATABASE");
-	String MYSQL_HOSTNAME = "localhost";
+	String MYSQL_HOSTNAME = "127.0.0.1";
 	String JDBC_URL = "jdbc:mysql://" + MYSQL_HOSTNAME + ":3306/" + MYSQL_DATABASE;
 %>
 <p>
